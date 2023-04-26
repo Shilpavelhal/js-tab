@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>tab</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+</head>
+<body>
+    <h1 class="bg-primary text-white p-4 mb-4">Tab component</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <div class="myTab">
+                    <ul class="mytabHeading">
+                        <li class="active" data-id="html">HTML</li>
+                        <li data-id="css">CSS</li>
+                        <li data-id="javascript">JavaScript</li>
+                        <li data-id="angular">Angular</li>
+                    </ul>
+                    <div class="myTabBody card">
+                        <div class="tabContent card-body active" id="html">
+                            <p>
+                                <strong>HTML</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus officiis consequatur iure dicta labore, magni fugit et veniam adipisci aperiam laudantium quam voluptas nisi obcaecati. Iusto, quod sed!
+                            </p>
+                        </div>
+                        <div class="tabContent card-body" id="css">
+                            <p>
+                                <strong>CSS</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus officiis consequatur iure dicta labore, magni fugit et veniam adipisci aperiam laudantium quam voluptas nisi obcaecati. Iusto, quod sed!
+                            </p>
+                        </div>
+                        <div class="tabContent card-body" id="javascript">
+                            <p>
+                                <strong>JAVASCRIPT</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus officiis consequatur iure dicta labore, magni fugit et veniam adipisci aperiam laudantium quam voluptas nisi obcaecati. Iusto, quod sed!
+                            </p>
+                        </div>
+                        <div class="tabContent card-body" id="angular">
+                            <p>
+                                <strong>ANGULAR</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus officiis consequatur iure dicta labore, magni fugit et veniam adipisci aperiam laudantium quam voluptas nisi obcaecati. Iusto, quod sed!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
